@@ -5,6 +5,7 @@ from reports import CohortReport
 from reports import ExerciseJoinStudentReport
 from joined_ex_part_5 import StudentsWithExercises
 from joined_ex_part_5 import StudentAssignedWorkloadByInstructor
+from joined_ex_part_5 import PopularExercises
 
 
 
@@ -28,6 +29,9 @@ student_with_exercises.all_students_with_exercises()
 
 student_assigned_workload_by_instructors = StudentAssignedWorkloadByInstructor()
 student_assigned_workload_by_instructors.student_assigned_workload()
+
+popular_exercises = PopularExercises()
+popular_exercises.popular_exercises()
 
 # OUTPUT
 '''
@@ -131,4 +135,31 @@ Andy Collins has assigned the exercise:
 Kristen Norris has assigned the exercise:
         * JS Interpreter
         * Music History
+
+
+******** Popular Exercises ********
+
+Student Exercises is being completed by:
+        * Matt Crook
+        * Alyssa Nycum
+        * Andrew Green
+
+Sockets is being completed by:
+        * Matt Crook
+        * Alyssa Nycum
+        * Sofia Candiani
+
+React Context is being completed by:
+        * Matthew Kroeger
+        * Keith Potempa
+        * Dustin Murdock
+
+JS Interpreter is being completed by:
+        * Matthew Kroeger
+        * Sofia Candiani
+        * Dustin Murdock
+
+Music History is being completed by:
+        * Keith Potempa
+        * Andrew Green
 '''
