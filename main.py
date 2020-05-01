@@ -3,6 +3,8 @@ from reports import ExerciseReport
 from reports import InstructorReports
 from reports import CohortReport
 from reports import ExerciseJoinStudentReport
+from joined_ex_part_5 import StudentsWithExercises
+from joined_ex_part_5 import StudentAssignedWorkloadByInstructor
 
 
 
@@ -20,6 +22,12 @@ S_reports.all_students()
 
 student_exercise_join_reports = ExerciseJoinStudentReport()
 student_exercise_join_reports.all_students_all_exercises()
+
+student_with_exercises = StudentsWithExercises()
+student_with_exercises.all_students_with_exercises()
+
+student_assigned_workload_by_instructors = StudentAssignedWorkloadByInstructor()
+student_assigned_workload_by_instructors.student_assigned_workload()
 
 # OUTPUT
 '''
@@ -78,4 +86,49 @@ Dustin Murdock is in Cohort 38
         * Keith Potempa
         * Andrew Green
 
+********* All Students With Exercises *********
+
+Matt Crook is working on:
+        * Student Exercises
+        * Sockets
+
+Matthew Kroeger is working on:
+        * JS Interpreter
+        * React Context
+
+Alyssa Nycum is working on:
+        * Sockets
+        * Student Exercises
+
+Keith Potempa is working on:
+        * Music History
+        * React Context
+
+Sofia Candiani is working on:
+        * Sockets
+        * JS Interpreter
+
+Andrew Green is working on:
+        * Music History
+        * Student Exercises
+
+Dustin Murdock is working on:
+        * JS Interpreter
+        * React Context
+
+********** Exercises Instructors Assigned **********
+
+Jisie David has assigned the exercise:
+        * Student Exercises
+        * React Context
+        * JS Interpreter
+
+Andy Collins has assigned the exercise:
+        * Sockets
+        * React Context
+        * Student Exercises
+
+Kristen Norris has assigned the exercise:
+        * JS Interpreter
+        * Music History
 '''
