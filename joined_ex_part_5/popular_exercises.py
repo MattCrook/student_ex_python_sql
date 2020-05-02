@@ -25,10 +25,30 @@ class PopularExercises:
 
             data = db_cursor.fetchall()
             print("\n******** Popular Exercises ********")
-            for first, last, exercise_name in data:
+
+            ##### Can loop through the data (2) different ways:#######
+
+            '''for first, last, exercise_name in data:
                 if exercise_name not in exercises:
                     exercises[exercise_name] = [f"{first} {last}"]
                 elif f"{first} {last}" not in exercises[exercise_name]:
+                    exercises[exercise_name].append(f"{first} {last}")
+
+            for name, students in exercises.items():
+                print(f"\n{name} is being completed by:")
+                for student in students:
+                    print(f"\t* {student}")'''
+
+            # This is slightly more explicit
+            for row in data:
+                print(row)
+                first = row[0]
+                last = row[1]
+                exercise_name = row[2]
+
+                if exercise_name not in exercises:
+                    exercises[exercise_name] = [f"{first} {last}"]
+                elif f"{first} {last}" not in exercises:
                     exercises[exercise_name].append(f"{first} {last}")
 
             for name, students in exercises.items():
