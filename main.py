@@ -6,6 +6,7 @@ from reports import ExerciseJoinStudentReport
 from joined_ex_part_5 import StudentsWithExercises
 from joined_ex_part_5 import StudentAssignedWorkloadByInstructor
 from joined_ex_part_5 import PopularExercises
+from joined_ex_part_5 import ExercisesWithStudentsAndInstructors
 
 
 
@@ -32,6 +33,10 @@ student_assigned_workload_by_instructors.student_assigned_workload()
 
 popular_exercises = PopularExercises()
 popular_exercises.popular_exercises()
+
+who_working_on_what = ExercisesWithStudentsAndInstructors()
+who_working_on_what.who_working_on_what()
+who_working_on_what.ex_with_st_and_instr()
 
 # OUTPUT
 '''
@@ -162,4 +167,55 @@ JS Interpreter is being completed by:
 Music History is being completed by:
         * Keith Potempa
         * Andrew Green
+
+***** Instructors and Students *****
+
+Cohort 37
+  Students:
+  * Keith Potempa is in Cohort 37
+  * Matt Crook is in Cohort 37
+  Instructors:
+  * Jisie David is in Cohort 37
+
+Cohort 39
+  Students:
+  * Matthew Kroeger is in Cohort 39
+  * Sofia Candiani is in Cohort 39
+  Instructors:
+  * Kristen Norris is in Cohort 39
+
+Cohort 38
+  Students:
+  * Alyssa Nycum is in Cohort 38
+  * Andrew Green is in Cohort 38
+  * Dustin Murdock is in Cohort 38
+  Instructors:
+  * Andy Collins is in Cohort 38
+
+
+******* Who is Working on What and Why? *******
+
+Student Exercises:
+  * Jisie David assigned this to Matt Crook
+  * Jisie David assigned this to Alyssa Nycum
+  * Andy Collins assigned this to Andrew Green
+
+Sockets:
+  * Andy Collins assigned this to Matt Crook
+  * Andy Collins assigned this to Alyssa Nycum
+  * Andy Collins assigned this to Sofia Candiani
+
+React Context:
+  * Jisie David assigned this to Matthew Kroeger
+  * Andy Collins assigned this to Keith Potempa
+  * Jisie David assigned this to Dustin Murdock
+
+JS Interpreter:
+  * Kristen Norris assigned this to Matthew Kroeger
+  * Jisie David assigned this to Sofia Candiani
+  * Kristen Norris assigned this to Dustin Murdock
+
+Music History:
+  * Kristen Norris assigned this to Keith Potempa
+  * Kristen Norris assigned this to Andrew Green
 '''
