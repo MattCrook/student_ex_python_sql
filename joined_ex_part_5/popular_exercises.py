@@ -41,7 +41,6 @@ class PopularExercises:
 
             # This is slightly more explicit
             for row in data:
-                print(row)
                 first = row[0]
                 last = row[1]
                 exercise_name = row[2]
