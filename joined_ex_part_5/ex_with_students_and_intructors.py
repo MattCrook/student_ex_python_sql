@@ -42,7 +42,7 @@ class ExercisesWithStudentsAndInstructors:
             for exercise, info in exercises.items():
                 print(f"\n{exercise}:")
                 for item in info:
-                    print(f"  * {item['instructor']} assigned this to {item['student']}")
+                    print(f"  * {item['instructor']} assigned this exercise to {item['student']}")
 
     def ex_with_st_and_instr(self):
         cohorts = dict()

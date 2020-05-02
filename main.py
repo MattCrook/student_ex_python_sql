@@ -196,26 +196,26 @@ Cohort 38
 ******* Who is Working on What and Why? *******
 
 Student Exercises:
-  * Jisie David assigned this to Matt Crook
-  * Jisie David assigned this to Alyssa Nycum
-  * Andy Collins assigned this to Andrew Green
+  * Jisie David assigned this exercise to Matt Crook
+  * Jisie David assigned this exercise to Alyssa Nycum
+  * Andy Collins assigned this exercise to Andrew Green
 
 Sockets:
-  * Andy Collins assigned this to Matt Crook
-  * Andy Collins assigned this to Alyssa Nycum
-  * Andy Collins assigned this to Sofia Candiani
+  * Andy Collins assigned this exercise to Matt Crook
+  * Andy Collins assigned this exercise to Alyssa Nycum
+  * Andy Collins assigned this exercise to Sofia Candiani
 
 React Context:
-  * Jisie David assigned this to Matthew Kroeger
-  * Andy Collins assigned this to Keith Potempa
-  * Jisie David assigned this to Dustin Murdock
+  * Jisie David assigned this exercise to Matthew Kroeger
+  * Andy Collins assigned this exercise to Keith Potempa
+  * Jisie David assigned this exercise to Dustin Murdock
 
 JS Interpreter:
-  * Kristen Norris assigned this to Matthew Kroeger
-  * Jisie David assigned this to Sofia Candiani
-  * Kristen Norris assigned this to Dustin Murdock
+  * Kristen Norris assigned this exercise to Matthew Kroeger
+  * Jisie David assigned this exercise to Sofia Candiani
+  * Kristen Norris assigned this exercise to Dustin Murdock
 
 Music History:
-  * Kristen Norris assigned this to Keith Potempa
-  * Kristen Norris assigned this to Andrew Green
+  * Kristen Norris assigned this exercise to Keith Potempa
+  * Kristen Norris assigned this exercise to Andrew Green
 '''
